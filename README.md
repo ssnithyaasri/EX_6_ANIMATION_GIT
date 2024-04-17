@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
 </RelativeLayout>
 ```
 # slide.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true" >
@@ -205,10 +206,10 @@ public class MainActivity extends AppCompatActivity {
         android:toXScale="1.0"
         android:toYScale="0.0" />
 </set>
+``` 
+# zoom.xml:
 
-```
 
-# zoom.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
